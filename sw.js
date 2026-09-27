@@ -1,4 +1,4 @@
-const CACHE = "ramjwi-202609271150";
+const CACHE = "ramjwi-202609271200";
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./icon-192.png"])));
   self.skipWaiting();
